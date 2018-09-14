@@ -12,6 +12,10 @@ body{
   height: auto;
 }
 
+*box-sizing{
+  border-box;
+}
+
 
 /* Header */
 
@@ -54,11 +58,12 @@ span{
 .content{
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   margin: 0 auto;
 }
 
-/* tea-month-div */
+/* mission-div */
 
 .mission{
   background-image: url("./images/background.jpg");
@@ -92,7 +97,7 @@ span{
   margin-bottom: 5px;
 }
 
-/* tea-month-div */
+/* tea-month-box */
 
 .tea-month{
   width: 1000px;
@@ -128,4 +133,42 @@ span{
 
 .products-5{
   margin-right: 175px;
+}
+
+/* locations-box */
+
+.locations{
+  background-image: url("./images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+
+}
+
+.location-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.loc-1,
+.loc-2,
+.loc-3{
+  border: solid black 1px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.loc-1{
+  margin-right: 40px;
+}
+
+.loc-3{
+  margin-left: 40px;
 }
