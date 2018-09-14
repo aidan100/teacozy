@@ -54,8 +54,8 @@ span{
 .content{
   display: flex;
   flex-direction: column;
-  position: center;
-  margin-top: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* tea-month-div */
@@ -65,8 +65,9 @@ span{
   height: 700px;
   width: 1200px;
   display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
+  flex-grow: 1;
+  margin: 0 auto;
+
 
 }
 
@@ -89,4 +90,42 @@ span{
 
 .banner h4{
   margin-bottom: 5px;
+}
+
+/* tea-month-div */
+
+.tea-month{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.box,
+.box-4,
+.box-5{
+  height: 200px;
+  width: 300px;
+}
+
+.cozy-images{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products,
+.products-4,
+.products-5,
+ h4{
+  margin-top: 10px;
+}
+
+.products-4{
+  margin-left: 175px;
+}
+
+.products-5{
+  margin-right: 175px;
 }
