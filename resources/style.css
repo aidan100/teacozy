@@ -172,3 +172,22 @@ span{
 .loc-3{
   margin-left: 40px;
 }
+
+/* tea-cosy-box */
+
+.tea-cozy{
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer */
+
+.footer{
+  text-align: left;
+  font-size: 12px;
+  margin-left: 20px;
+}
